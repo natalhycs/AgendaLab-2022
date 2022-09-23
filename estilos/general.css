@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    text-align: justify;
+}
+
+a.btn:link, a.btn:visited {
+    background-color: #c136f4;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+
+a.btn:active, a.btn:hover {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(163, 95, 227);
+    transform: translate(-3px, -3px);
+    
+}
+
+.div{
+    background-color: aquamarine;
+}
+
+.logo{
+    height: 215px;
+    float: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
