@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicación</title>
+    <link rel="stylesheet" href="/estilos/general.css">
+</head>
+
+<body>
+
+<h1>COMO USAR HTML, CSS, JS</h1>
+
+<h2>HTML</h2>
+    <p>
+    <b>titulos h1, h2,...h6:</b> puedo tener títulos y subtítulos dentro de mi documento html, para organizarlo. <br>
+    <b>h1:</b> solo se debe poner 1 etiqueta en todo el documento es para tener claridad de que
+    habla el documento, para que el navegador no lo castigue y lo deje en los últimos resultados <br>
+    <b>ol:</b> Lista viñetas etiqueta li*4 Tab == 1., 2., 3. 4 <br>
+    <b>id:</b> es mi punto de llegada por si quiero buscar algo dentro de la página <br>
+    <b>a:</b> hace referencia a un ancla<br>
+    <b>li:</b>lista ordenada 1., 2., 3. 4 <br>
+    <b>span:</b>texto cuando no es un parrafo<br>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+    </p>
+
+    <h3><a id="enlace" href="#button">Enlaces</a></h3>
+        <p>hace referencia a un punto específico dentro de mi página, sección, a otra página de mi web o a enlaces externos
+        </p>  
+
+    <h3><a>Botones</a></h3>
+        <a href="#" class ="btn">Este es un botón</a>
+    
+
+    <div class="div">
+    <h3>Div</h3>
+    <span>Componente que me ayuda a agrupar otros elementos, es un contenedor</span><br>
+    <img class="logo" src="imagenes/div.jpg" alt="visual etiqueta div">
+    </div>
+
+    <div class="form">
+        <h3>Formularios</h3>
+        <p>los formularios tienen dos métodos get (este método es un envio de mánera pública, la información se ve en la barra de navegación) <br>
+            con <b>action</b> le indico a donde se va a enviar la información<br>
+            y post, la información que le estoy enviando no se muestra en la url, el servidor debe ser más inteligente<br>
+            Todo lo que inicia con <b>on</b> son eventos que yo puedo hacer sobre el elemento en 
+
+        </p>
+            <!--<form method="get" action="/api/registro"> -->
+            <form method="post" action="/api/registro">
+                <label>Nombre de usuario</label>
+                <input id="nombre" type="text" name="login" placeholder="Nombre"> <br>
+                <label>Contraseña</label>
+                <input id="contrasena" type="password" name="pass" placeholder="********"><br>
+                <label>Edad</label>
+                <input id="age" type="number" name="edad" placeholder="Edad"><br>
+                <label>Correo electrónico</label>
+                <input id="email" type="email" name="email" placeholder="Correo electrónico"><br>
+                <label>Color</label>
+                <input type="color"><br>
+                <span>
+                    <label>Genero</label>
+                    <label for="male">Masculino</label>
+                    <input id="male" type="radio">
+                    <label for="female">Femenino</label>
+                    <input id="female" type="radio">
+                    <label>indeterminado</label>
+                    <input type="radio">
+                </span><br>
+                
+                <label>Hobbie</label><br>
+                <label>Baloncesto</label>
+                <input type="checkbox"><br>
+                <label>Voleyball</label>
+                <input type="checkbox"><br>
+                <label>Futbol</label>
+                <input type="checkbox"><br>
+                <label>Tenis</label><br>
+                <label for="logros">Logros</label><br>
+                <textarea id="logros"></textarea><br>
+                
+                <label>Especialidad</label><br>
+                <select>
+                    <option>Ingeniería de Sistemas</option>
+                    <option>Ingeniería Electrónica</option>
+                    <option>Ingeniería Mecánica</option>
+                    <option>Ingeniería de Sistemas</option>
+                    <option>Administración de Empresas</option>
+                    <option>Contaduría</option>
+                </select><br>
+
+                <label>Otras carreras que le gustan</label>
+                <input list="afines">
+                <datalist id="afines">
+                    <option>Ingeniería de Sistemas</option>
+                    <option>Ingeniería Electrónica</option>
+                    <option>Ingeniería Mecánica</option>
+                    <option>Ingeniería de Sistemas</option>
+                    <option>Administración de Empresas</option>
+                    <option>Contaduría</option>
+                </datalist><br>
+
+                <input type="search">Busqueda<br>
+
+                <input type="file"><br>
+
+                <input type="hidden"><br>
+                
+
+                <hr>
+
+                <input type="button" value="Es un botón" ondblclick="mostrarMensaje('doble clic')">
+                <input type="submit" value="Otro enviar">
+                <button type="button" onclick="alert('Me han presionado')">Accionar</button>
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+
+
+                
+            </form>
+
+    </div>
+
+    <hr>
+    
+    <div class="js">
+        <h2>JAVA SCRIPT</h2>
+        <p>
+            La función que se crea o las instrucciones que quiero que se ejecute es el script 
+            para que tenga la capacidad de interacturar con el botón<br>
+            Hay dos maneras de ejecutar js directamente en el elemento o escribiendolo aparte <br>
+            Debe tener un archivo separado <br>
+            En js el ; es opcional pero es recomendado usarlo, es obligatorio cuando hay dos instrucciones en la misma línea <br>
+            Se pone la etiqueta script src para que enlace con el archivo js bien sea general o específico de mi página <br>
+            <b>Variables: </b>Para crear una variable hay tres formas var (ya no se debe usar, es la forma anterior), let(definir variable), const (solamente va a poder adoptar un valor)<br>
+            <br>
+
+            <br>
+            <input type="button" value="Es un botón" ondblclick="mostrarMensaje('doble clic')">
+        </p>
+
+        <form>
+            <label for="contador">Contador</label>
+            <input id="contador" type="number" value="50">
+            <button type="button" onclick="incrementarContador()">Incrementar</button>
+            
+            <p id="salida"></p>
+        </form>
+
+        <script src="js/general.js"></script>
+    
+    </div>  
+
+    
+</body>
+</html>
