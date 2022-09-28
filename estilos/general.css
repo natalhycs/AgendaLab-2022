@@ -35,6 +35,23 @@ a.btn:active, a.btn:hover {
     background-color: aquamarine;
 }
 
+
+.erow{
+    background-color: greenyellow;
+    text-emphasis-color: white;
+    color: blueviolet;
+}
+
+#fila div {
+    border-style: inset;
+    text-align: center;
+    border-width: 1px;
+    border-color: blue
+    
+}
+
+
+
 .logo{
     height: 215px;
     float: center;

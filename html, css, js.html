@@ -37,9 +37,31 @@
     
 
     <div class="div">
-    <h3>Div</h3>
-    <span>Componente que me ayuda a agrupar otros elementos, es un contenedor</span><br>
-    <img class="logo" src="imagenes/div.jpg" alt="visual etiqueta div">
+        <h3>Div</h3>
+        <span>Componente que me ayuda a agrupar otros elementos, es un contenedor</span><br>
+        <img class="logo" src="imagenes/div.jpg" alt="visual etiqueta div">
+    </div>
+
+    <div class="erow">
+        <h3>Row</h3>
+        <p>Se genera una fila con x columnas dependiendo las que le indique <br>
+            los sm, md, xl son para definir de acuerdo al tamaño de la pantalla como se van a redimensionar los elementos<br>
+            <br>
+        </p>
+
+        <div id="fila" class="row">
+            <div class="col-sm-2 col-md-4">Hola, </div>
+            <div class="col-sm-2 col-md-7">¿cómo</div>
+            <div class="col-sm-2 col-md-3">están?</div>
+        </div>
+
+    </div>
+        
+
+        
+
+
+    
     </div>
 
     <div class="form">
@@ -155,6 +177,49 @@
     
     </div>  
 
-    
+    <h3>Spring Boot</h3>
+    <p>
+       Framework, <a href="https://spring.io/">Spring Boot</a>  // Serie de bibliotecas, que puedo usar para 
+       agilizar un desarrollo, hace la configuración automática con un servidor
+       web incluido dentro de mi aplicación, es capaz de publicar páginas web, almacenar
+       la información. <br>
+       Es para hacer aplicaciones back end.<br>
+
+       Seleccionar proyecto, lenguaje, la última version de sb estable
+       group es el dominio al reves
+       artifact y name el mismo nombre de mi proyecto
+       todo recomendado en minusculas. <br>
+
+       Cuando se termine la configuración del proyecto se crea una carpeta con todo
+       lo que se requiere para ejecutar mi aplicación.<br>
+       y se pueden agregar dependencias desde vs para realizar lo que se requiera con la dirección y artifactid<br>
+
+       <h4>Carpetas</h4>
+
+       <ul>
+            <li><b>java: </b> Todo el código fuente va en esta carpeta, todo lo compilable</li>
+            <li><b>resources: </b> Todo los recuersos que no sean código fuente, estático.</li>
+            <li><b>Static: </b>Todo lo que no necesito hacer nada img, video</li>
+            <li><b>Templates: </b>Todas las plantillas con las que trabaje se dejan ahí, freemaker </li>
+            <li><b>Aplication.properties: </b>se configuran los diferentes puertos para que no tengamos conflictos con otras aplicaciones se debe poner server.port = 8090, 8081, etc, etc</li>
+            Para arrancar la aplicación el proceso es ir a java, abrir la aplicación y clic en run <br>
+
+        
+        </li>
+       </ul>
+
+    </p>
+
+    <h4>Otros</h4>
+    <p>
+        120922-1:48min iniciarlizar con BD
+        140922-32min modelo de datos puml: alt D para vista previa
+        160922-35min crear entidad usuarios
+        160922-1:55 Controlador y servicios rest
+        120922-1:47 clases para almacenar los datos de las tablas
+
+
+    </p>
+
 </body>
 </html>
